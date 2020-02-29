@@ -3,9 +3,7 @@
     "name": "startbootstrap-creative",
     "version": "5.1.8",
     "scripts": {
-        "poststart": "npm prune --production",
-        "start": "node_modules/.bin/gulp watch",
-        "serve": "browser-sync start --no-open --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\""
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "Creative is a stylish one page HTML theme for Bootstrap.",
     "keywords": [
@@ -40,7 +38,7 @@
     "devDependencies": {
         "browser-sync": "2.26.7",
         "del": "5.1.0",
-        "gulp": "^4.0.2",
+        "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.0",
         "gulp-clean-css": "4.2.0",
         "gulp-header": "2.0.9",
