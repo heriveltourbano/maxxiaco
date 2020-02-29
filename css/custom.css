@@ -1,0 +1,59 @@
+.btn-primary {
+    color: #fff;
+    background-color: #a02020;
+    border-color:  #f4623a;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    background: #a02020;
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+    
+  .bg-primary {
+    background-color: #a02020 !important;
+  }
+  
+  a.bg-primary:hover, a.bg-primary:focus,
+  button.bg-primary:hover,
+  button.bg-primary:focus {
+    background-color: #a02020 !important;
+  }
+  
+  .text-primary {
+    color: #a02020 !important;
+  }
+  
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(23rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(70, 56, 46, 0.8) 100%), url("../img/bg-masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  @media(min-width: 576px){
+    header.masthead {
+      padding-top: 10rem;
+      padding-bottom: calc(23rem);
+      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masterhead-sm.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }
+  
+  @media(min-width: 1200px){
+    header.masthead {
+      padding-top: 10rem;
+      padding-bottom: calc(23rem);
+      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masterhead-md.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+  }
+}
