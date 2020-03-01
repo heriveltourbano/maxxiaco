@@ -2,6 +2,7 @@
   "title": "Creative",
   "name": "maxxiaco",
   "version": "1.0.1",
+  "engines": {"node": "12.x"},
   "scripts": {
     "start": "gulp watch"
   },
