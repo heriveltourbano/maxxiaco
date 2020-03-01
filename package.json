@@ -4,7 +4,8 @@
   "version": "1.0.1",
   "engines": {"node": "12.x"},
   "scripts": {
-    "start": "gulp watch"
+    "start": "gulp watch",
+    "build": "webpack"
   },
   "description": "Creative is a stylish one page HTML theme for Bootstrap.",
   "keywords": [
