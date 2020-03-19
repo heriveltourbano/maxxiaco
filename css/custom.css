@@ -1,3 +1,5 @@
+
+
 .btn-primary {
     color: #fff;
     background-color: #a02020;
@@ -24,17 +26,23 @@
     color: #a02020 !important;
   }
   
+  .bg-black {
+    background-color: #000000 !important;
+  }
+  
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(23rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(70, 56, 46, 0.8) 100%), url("../img/bg-masthead.png");
+    background:  url("../img/bg-masthead.png");
+    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(70, 56, 46, 0.8) 100%), url("../img/bg-masthead.png");  */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-  }
+  } 
+
   
-  @media(min-width: 576px){
+  /* @media(min-width: 576px){
     header.masthead {
       padding-top: 10rem;
       padding-bottom: calc(23rem);
@@ -55,5 +63,5 @@
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-size: cover;
-  }
+  } */
 }
