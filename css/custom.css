@@ -33,35 +33,29 @@
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(23rem);
-    background:  url("../img/bg-masthead.png");
-    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(70, 56, 46, 0.8) 100%), url("../img/bg-masthead.png");  */
+    background:url("../img/bg_masterhead_letter_sm.png"), linear-gradient(#a02020 40%,black);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
   } 
 
-  
-  /* @media(min-width: 576px){
+  @media(min-width: 700px){
     header.masthead {
       padding-top: 10rem;
       padding-bottom: calc(23rem);
-      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masterhead-sm.png");
+      background:url("../img/bg_masterhead_letter_md.png"), linear-gradient(#a02020 40%,black);
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
-      background-size: cover;
-    }
-  }
-  
-  @media(min-width: 1200px){
-    header.masthead {
-      padding-top: 10rem;
-      padding-bottom: calc(23rem);
-      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masterhead-md.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
-  } */
+    } 
+  }  
+  @media(min-width: 1280px){
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(23rem);
+    background:url("../img/bg_masterhead_letter_lg.png"), linear-gradient(#a02020 40%,black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  } 
 }
