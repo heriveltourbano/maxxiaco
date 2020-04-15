@@ -30,6 +30,12 @@
     background-color: #000000 !important;
   }
   
+  nav img {
+    height: 1.2em;
+    /* padding-left: 1em; */
+    padding-right: 0.5em;
+  }
+
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(23rem);
@@ -53,7 +59,7 @@
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(23rem);
-    background:url("../img/bg_masterhead_letter_lg.png"), linear-gradient(#a02020 40%,black);
+    background: url("../img/bg_masterhead_letter_lg.png"), linear-gradient(#a02020 40%,black);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
