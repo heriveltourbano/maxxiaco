@@ -6,10 +6,7 @@
     "node": "12.x"
   },
   "scripts": {
-    "update": "npm update && npm prune && bower install --allow-root && bower prune --allow-root",
-    "clean": "rm -rf node_modules/ public/lib/",
-    "reinstall": "npm cache clean && npm run clean && npm install",    
-    "heroku-prebuild": "npm install --only=dev",
+    "heroku-prebuild": "npm install",
     "start": "gulp watch",
     "build": "webpack"
   },
@@ -39,9 +36,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
-    "jquery": "3.4.1",
-    "jquery.easing": "^1.4.1",
-    "magnific-popup": "^1.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "7.0.0",
     "gulp-clean-css": "4.2.0",
@@ -50,7 +44,12 @@
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
     "gulp-uglify": "3.0.2",
-    "merge-stream": "2.0.0"
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0",
+    "merge-stream": "2.0.0",
+    "nodemon": "^2.0.3",
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",
