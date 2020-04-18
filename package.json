@@ -6,6 +6,9 @@
     "node": "12.x"
   },
   "scripts": {
+    "update": "npm update && npm prune && bower install --allow-root && bower prune --allow-root",
+    "clean": "rm -rf node_modules/ public/lib/",
+    "reinstall": "npm cache clean && npm run clean && npm install",    
     "heroku-prebuild": "npm install --only=dev",
     "start": "gulp watch",
     "build": "webpack"
