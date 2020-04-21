@@ -7,8 +7,7 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install --only=dev",
-    "start": "gulp watch",
-    "build": "webpack"
+    "start": "gulp watch"
   },
   "description": "Creative is a stylish one page HTML theme for Bootstrap.",
   "keywords": [
@@ -34,12 +33,13 @@
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "browser-sync": "2.26.7",
-    "del": "5.1.0"
- ,   "@fortawesome/fontawesome-free": "5.10.2",
+    "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "7.0.0",
     "gulp-clean-css": "4.2.0",
